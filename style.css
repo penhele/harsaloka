@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* mengatur background */
+.banner-card {
+    position: relative;
+}
+
+.banner-card img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    position: absolute;
+    top: 0;
+}
+
+/* mengatu navigation */
+nav {
+    color: white;
+}
+
+nav .logo, ul {
+    padding-left: 70px;
+}
+
+nav .logo {
+    padding-top: 20px;
+    font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 1135px) {
+    nav .logo, ul {
+        padding-left: 25px;
+    }
+    nav ul {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    nav ul {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav .logo {
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 576px) {
+    nav .logo {
+        font-size: 1em;
+        padding-top: 11 px;
+    }
+}
+
+/* isi website */
+
+main {
+    padding: 0 5rem;
+    font-size: 20px;
+    background-color: #FFE4E1;
+    margin-top: -10px;  
+}
+  
+h2 {
+    color:	#9370DB;
+    padding: 2rem 0;
+}
+
+h3 {
+    color: #8B008B;
+}
+
+h4, h5 {
+    font-weight: bold;
+    color: #8B008B;
+}
+
+p, ol {
+    color:#8B008B;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        padding: 0 2rem;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    main {
+        padding: 0 1rem;
+        font-size: 15px;
+    }
+}
+
+/* gambar bab 2 - Rencana Kegiatan */
+
+img.nama-toko-harsaloka {
+    width:350px;
+}
+
+img.promosi-coming-soon {
+    width: 350px;
+}
+
+img.iklan-harsaloka {
+    width: 350px;
+}
+
+img.poster-harsaloka {
+    width: 350px;
+}
+
+img.slogan-harsaloka {
+    width: 350px;
+}
+
+img.il-bindo {
+    width: 350px;   
+}
+
+img.produk-harsaloka {
+    width: 350px;
+}
+
+@media screen and (max-width: 768px) {
+    img.nama-toko-harsaloka {
+        width: 200px;
+    }
+
+    img.promosi-coming-soon {
+        width: 200px;
+    }
+    
+    img.iklan-harsaloka {
+        width: 200px;
+    }
+    
+    img.poster-harsaloka {
+        width: 200px;
+    }
+    
+    img.slogan-harsaloka {
+        width: 200px;
+    }
+    
+    img.il-bindo {
+        width: 200px;   
+    }
+    
+    img.produk-harsaloka {
+        width: 200px;
+    }
+}
+
+/* gambar bab 3 - Hasil Kegiatan */
+
+img.pengeluaran, img.daftar-barang, img.pembagian-keuntungan {
+    width: 750px;
+}
+
+@media screen and (max-width: 926px) {
+    img.pengeluaran, img.daftar-barang, img.pembagian-keuntungan {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    img.pengeluaran, img.daftar-barang, img.pembagian-keuntungan {
+        width: 100%;
+    }
+}
+
+/* iframe bab 3 - Hasil Kegiatan */
+iframe {
+    width: 850px;
+    height: 500px;
+}
+
+@media screen and (max-width: 1070px) {
+    iframe {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+/* gambar lampiran */
+section.lampiran img {
+    width: 900px;
+}
+
+@media screen and (max-width: 1070px) {
+    section.lampiran img {
+        width: 100%;
+    }
+}
