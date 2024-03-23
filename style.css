@@ -190,7 +190,7 @@ img.pengeluaran, img.daftar-barang, img.pembagian-keuntungan {
 }
 
 @media screen and (max-width: 768px) {
-    img.pengeluaran, img.daftar-barang, img.pembagian-keuntungan {
+    img.pengeluaran, img.daftar-barang, img.pembagian-keuntungan, img.keuntungan-kerugian {
         width: 100%;
     }
 }
