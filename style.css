@@ -51,6 +51,8 @@
     padding-left: 4.4%;
     list-style: none;
     gap: 2.3vw;
+    
+    background-color: #f0acdc;
 }
 
 .navigation ul li a {
@@ -63,7 +65,9 @@
 }
 
 .navigation ul li a:hover {
-    background-color: antiquewhite;
+    background-color: white;
+    padding: 7px;
+    color: #f0acdc;
 }
 
 @media screen and (max-width: 1080px) {
