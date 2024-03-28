@@ -3,20 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 <body>
-    <nav>
-        <div class="banner-card">
+    <div class="banner-card">
+        <div class="background">
             <img src="Assets/HARSALOKA.png" alt="">
-            <div class="banner-text">
+        </div>
+        <div class="banner-text">
+            <div class="responsif">
                 <div class="logo">
                     <h1>Harsaloka</h1>
                 </div>
-                <ul>
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#kata">Kata Pengantar</a></li>
+                <div id="menu-icon" class="menu-icon">
+                    <i class="ph ph-list"></i>
+                </div>
+            </div>
+            <div class="navigation">
+                <ul id="menu-list" class="hidden">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#kata-pengantar">Kata Pengantar</a></li>
                     <li><a href="#abstrak">Abstrak</a></li>
                     <li><a href="#bab-i">Bab I</a></li>
                     <li><a href="#bab-ii">Bab II</a></li>
@@ -24,30 +32,31 @@
                     <li><a href="#bab-iv">Bab IV</a></li>
                     <li><a href="#daftar-pustaka">Daftar Pustaka</a></li>
                     <li><a href="#lampiran">Lampiran</a></li>
-                    <li><a href="#ppt">PPT</a></li> 
+                    <li><a href="#presentasi">PPT</a></li> 
                 </ul>
             </div>
         </div>
-    </nav>
+    </div>
+
     <main>
-        <section class="kata-pengantar" id="kata-pengantar">
+        <section id="kata-pengantar">
             <h2>Kata Pengantar</h2>
             <p>Salam sejahtera bagi kita semua. Puji dan syukur kami haturkan kepada Tuhan Yang Maha Esa, karena dengan rahmat dan karunia yang telah dilimpahkan kepada kami sehingga dapat menyelesaikan laporan praktikum kami ini. Dalam laporan ini, kami membahas proses bazaar kami dari awal hingga akhir. Laporan ini disusun untuk menyelesaikan tugas IL (Integrated Learning) yang melibatkan mata pelajaran IPA, Matematika, Agama, TIK, Bahasa Indonesia, dan Bahasa Inggris.</p><br>
             <p>Dalam menyelesaikan laporan ini, pastinya kami membutuhkan bantuan dari orang lain. Untuk itu, kami mengucapkan terima kasih kepada anggota kelompok ini yang sudah kooperatif, aktif, dan kompak dalam mengerjakan laporan ini, para guru yang sudah membantu dan membimbing kami dalam mengerjakan laporan ini, serta semua pihak yang sudah telah berjasa dan membantu kami dalam menyelesaikan laporan kelompok kami ini.</p><br>
             <p>Kami menyadari bahwa laporan kami ini masih jauh dari kata sempurna. Oleh karena itu, kami terbuka atas kritik dan saran yang membangun dari seluruh pihak. Kami juga ingin meminta maaf jika ada kesalahan dan kekurangan dalam isi maupun penulisan laporan kami ini. Akhir kata, kami harap melalui karya tulis ini, dapat memberi pandangan dan wawasan baru kepada para pembaca.</p><br>
         </section>
-        <section class="abstrak" id="abstrak">
+        <section id="abstrak">
             <h2>Abstrak</h2>
             <p>Di dalam SMP Santa Ursula Jakarta, terdapat salah satu mata pelajaran yang penting yaitu, Integrated Learning. Mata pelajaran ini difokuskan untuk meningkatkan tingkat kinerja dalam bidang kewirausahaan, perdagangan, dan sifat kerjasama antar anggota. Integrated Learning kelas IX SMP Santa Ursula Jakarta memiliki kegiatan dan tugas untuk mendirikan stan bazar. Proyek besar tersebut dilakukan pada tanggal 5 Desember 2023, tepatnya pada saat istirahat pertama dan kedua. Target konsumen yang ditemukan adalah siswa dan siswi SD, SMP, dan SMA Santa Ursula Jakarta. Penjualan tidak hanya diadakan pada saat hari-h secara offline, namun dibuka juga penjualan secara online dengan sistem pre-order.</p><br>
             <p>Perencanaan merupakan salah satu bagian penting di dalam kegiatan bazar ini, sebab tanpa perencanaan tidak akan ada eksekusi penjualan yang maksimal. Perencanaan yang dilakukan sebelum hari pelaksanaan tiba tentunya banyak sekali, termasuk perencanaan nama toko, logo, produk jual, harga jual, tema, dekorasi, dan juga promosi. Ketika hari pelaksanaan tiba, seluruh anggota kelompok saling membagi tugas dan bekerja dalam bidang masing-masing, sehingga penjualan dapat berjalan dengan lancar. Ketika pelaksanaan telah selesai, kami tetap saling bekerja sama untuk menghitung pendapatan, mendata semua produk yang terjual, merapikan dekorasi booth, dan membersihkan sisa-sisa sampah dan dekorasi.</p><br>
             <p>Selama perencanaan dan pelaksanaan berlangsung, tentunya kelompok kami memiliki beberapa fase kesulitan dan kemudahan. Dari awal kegiatan perencanaan, kami menemukan bahwa setiap opini dan pendapat dari seluruh anggota kelompok sangatlah penting dan memiliki dampak yang besar terhadap kemajuan kelompok kami. Maka dari itu, setiap kami mengalami perselisihan pendapat atau opini, kami akan memilih untuk bermusyawarah dan memutuskan untuk mengambil pilihan yang memiliki lebih banyak suara dibandingkan dengan yang lain. Ketika pelaksanaan pun, beberapa kali kami mengalami masalah miskomunikasi, sehingga kegiatan penjualan sedikit terhambat dan memperlambat proses penjualan. Namun dengan itu, kami akhirnya memutuskan untuk memperbaiki cara komunikasi kami, sehingga proses penjualan dapat kembali lancar, sehingga kepuasan dari pelanggan dapat kami dapatkan.</p><br>
         </section>
-        <section class="abstrak-bing" id="abstrak-bing">
+        <section id="abstrak-bing">
             <p>Integrated Learning is a crucial subject in SMP Santa Ursula Jakarta. It aims to enhance students' performance in entrepreneurship, selling skills, and teamwork. In this subject, grade IX students were tasked to set up a bazaar booth. The project was carried out on December 5, 2023, during the first and second breaks. The target market was students from elementary, middle, and high schools in Saint Ursula Jakarta. The products were sold offline during the event and online through a pre-order system.</p><br>
             <p>Planning was a crucial part of the bazaar. Without proper planning, the sales execution would not be optimal. The planning process included brainstorming for the store name, logo, products, prices, theme, decoration, and promotion. On the day of the event, the group members divided the tasks and worked in their own areas, ensuring a smooth sales process. After the event, the group worked together to calculate the revenue, record the sold products, tidy up the booth, and clean up the leftover trash and decorations.</p><br>
             <p>During the planning and execution, the group faced various challenges and had some successes. From the beginning, the group realized that every member's opinion and contribution was crucial and had a significant impact on the group's progress. Therefore, whenever there were disagreements, the group would hold a discussion and choose the option with the majority vote. During the execution, the group experienced some miscommunication issues, which slightly hindered the sales process. However, the group decided to improve their communication, leading to a smoother sales process and customer satisfaction.</p><br>
         </section>
-        <section class="bab-i" id="bab-i">
+        <section id="bab-i">
             <h2>Pendahuluan</h2>
             <!-- 1.1 -->
             <h3>1.1 Latar Belakang</h3><br>
@@ -65,7 +74,7 @@
                 <li>Untuk mengetahui lebih dalam tentang penelitian bioteknologi, terutama dalam hal proses pembuatan produk pangan, proses fermentasi produk pangan, dan juga proses praktek pembuatan produk bioteknologi.</li><br>
             </ol>
         </section>
-        <section class="bab-ii" id="bab-ii">
+        <section id="bab-ii">
             <h2>Rencana Kegiatan</h2>
             <h3>2.1 Perencanaan Produk</h3><br>
             <ol>
@@ -111,9 +120,9 @@
             <p>Booth kami disiapkan satu hari sebelum hari pelaksanaan bazar tersebut, hal-hal utama yang disiapkan untuk mendekorasi booth kami adalah taplak meja, dekorasi background, dan display nama toko ‘Harsaloka’. Booth yang diberikan dari pihak SMP Santa Ursula Jakarta adalah dua buah meja, satu buah papan tulis, satu buah kursi. Dari beberapa persediaan tersebut, kami mendekor keseluruhan booth sehingga tertutup dan terlihat berbeda. Kedua meja yang telah disediakan, kami tutup dengan taplak meja berwarna putih dan merah muda. Dengan menutup meja yang memiliki warna kayu dengan taplak yang memiliki warna ciri khas toko kami, maka tentunya akan lebih sesuai. Selain itu, kami juga menambahkan rumbai-rumbai pada setiap sisi meja. Pada papan tulis yang tersedia, kami gunakan sebagai background dari photobooth. Papan tulis tersebut kami dekorasi dan tutup secara keseluruhan menggunakan rumbai-rumbai berwarna merah muda dengan silver. Papan tulis yang memiliki warna asli berwarna putih, kami tutup dengan rumbai-rumbai tersebut. Selain sebagai fungsi untuk background photobooth, rumbai-rumbai tersebut juga digunakan untuk mendekorasi keseluruhan stan. Rumbai-rumbai tersebut juga sangat menambahkan aksen yang ingin dimiliki oleh ‘Harsaloka’.</p><br>
             <p>Dekorasi ekstra yang kami berikan di dalam booth, adalah display nama “Harsaloka”. Display tersebut kami tempel di atas papan tulis dengan rumbai-rumbai tersebut. Display nama tersebut kami buat dengan bahan utama kardus, dengan warna cat gradien merah muda sampai merah. Tujuan utama dibuat display ini adalah agar dari kejauhan para pembeli sudah dapat menyadari nama ‘Harsaloka’ dan lebih mudah untuk diingat oleh para pembeli. Selain display, kami juga menyiapkan logo. Logo dibuat sebagai identitas visual dari suatu toko. Maka dari itu, kami tentunya juga membuat sebuah logo sebagai identitas dari Harsaloka. Logo kami secara tidak langsung juga bekerja sebagai maskot. Maskot Harsaloka merupakan kupu-kupu. Kupu-kupu tersebut diberikan aksen warna ungu dan merah muda.</p><br>
         </section>
-        <section class="bab-iii" id="bab-iii">
+        <section id="bab-iii">
             <h2>Hasil Kegiatan</h2>
-            <h3>3.1 Laporan Pelaksanaan</h3>
+            <h3>3.1 Laporan Pelaksanaan</h3><br>
             <p>Pada hari Senin, kami semua berkumpul di sekolah untuk mendekor bazar kami. Kami menyiapkan meja dan papan yang akan digunakan pada hari bazar kami. Kami juga menyiapkan beberapa dekorasi untuk aktivitas jual-beli kami. Kami memotong-motong kardus untuk membuat hiasan tulisan “Harsaloka” di bagian photobooth. Selain itu, kami juga membuat q-ris agar dapat memudahkan pembeli dalam bertransaksi di stan kami.</p><br>
             <p>Pada hari Selasa tanggal 5 Desember 2023, yaitu pada hari pelaksanaan bazar, kami memulai persiapan dengan meletakkan semua barang-barang kami di stan. Setelah itu, kami mulai bersiap-siap untuk memasak produk makanan kami, yaitu chicken popcorn. Chicken popcorn adalah salah satu produk makanan di stan kami. Chicken popcorn ini adalah potongan-potongan ayam yang renyah dan disajikan dengan saus mayonnaise. Kami meletakan semua bahan masakan ke dapur dan mulai memasak pada pukul 7:30 WIB. Kami berusaha untuk dapat memasak secepat mungkin karena waktu yang sedikit. Tetapi, kami tetap mementingkan rasa agar pembeli tidak merasa kecewa dengan produk makanan kami. Agar memasak lebih cepat, kami membagi-bagi tugas dalam memasak. Ada anggota kelompok kami yang melumuri ayam di tepung basah, tepung kering, dan ada juga anggota kelompok kami yang menggoreng ayam tersebut.</p><br>
             <p>Karena waktu yang semakin terbatas dan kami harus segera mendekor stan kami, maka kami membagi tugas dengan ada anggota kelompok yang pergi mendekor stan kami terlebih dahulu dan ada anggota kelompok yang tetap berada di dapur untuk melanjutkan memasak. Setelah selesai memasak, kami segera membawa hasil masakan untuk ditata di meja stan bazar kami. Kami juga menata produk-produk lainnya agar terlihat menarik dan rapi. Kami hanya ada sedikit waktu untuk berganti pakaian, sehingga kami segera bergegas untuk berganti. Setelah semua siap, kami berkumpul di stan untuk bersiap-siap melayani pembeli-pembeli yang akan datang sebentar lagi.</p><br>
@@ -192,7 +201,7 @@
                     <iframe src="https://docs.google.com/document/d/e/2PACX-1vSA3BaLHxHeaZT7qmMlymKKDDy5sBkujMYg0M4KrjF7z7RZacOtU_n1t5LyoMSwa0RYFS6-zPjIBB96/pub?embedded=true" frameborder="0"></iframe>
                 </ol>
         </section>
-        <section class="bab-iv" id="bab-iv">
+        <section id="bab-iv">
             <h2>Penutup</h2>
             <h3>4.1 Kesimpulan</h3><br>
             <p>Berdasarkan bazar yang telah dilakukan oleh kelompok kami tentunya terdapat proses dari awal hingga akhir yang kami jalani bersama-sama. Proses-proses tersebut menghadirkan sebuah kesimpulan secara ringkas dari awal hingga akhir proses. Kesimpulan yang kami dapatkan berdasarkan kegiatan yang telah kami lakukan adalah pada tahap pertama kami mampu untuk menentukan harga barang dan produk yang telah kami jual dengan berbagai pertimbangan yang terjadi. Pada tahap kedua kami mampu untuk saling bekerja sama untuk membuat nama toko, logo toko, iklan toko, dan poster produk.</p><br>
@@ -202,7 +211,7 @@
             <p>Dari seluruh proses yang telah kami jalani tentunya dari seluruh proses tersebut terdapat berbagai hambatan-hambatan yang terjadi. Hambatan yang paling sering terjadi adalah hambatan dalam bentuk komunikasi. Hambatan komunikasi yang terjadi di kelompok kami merupakan hambatan komunikasi seperti terdapat satu anggota kelompok kami yang sulit untuk berkomunikasi dengan anggota lainnya. Hal tersebut menyebabkan kelompok kami menjadi kebingungan dalam mengerjakan tugas-tugas karena terdapat satu anggota kelompok kami yang sulit untuk berkomunikasi. Selain itu, dampak miskomunikasi juga menyebabkan kelompok kami tidak mengetahui apa hal-hal yang sulit untuk dikerjakan oleh satu anggota tersebut.</p><br>
             <p>Oleh karena itu, dari permasalahan tersebut timbul berbagai saran yang dapat kami terapkan dalam kelompok kami sehingga kami dapat meningkatkan kerja sama kami dan menyelesaikan hambatan dalam komunikasi tersebut. Saran-saran yang muncul adalah kita setiap masing-masing individu harus berusaha untuk berkumpul, berdiskusi bersama-sama. Cara berdiskusi tersebut kami setiap masing-masing anggota kelompok dapat memahami dan mengerti apa hal-hal yang sulit untuk kami kerjakan dan kami juga berusaha untuk membantu teman anggota kami yang mengalami kesulitan. Dengan kami menggunakan cara tersebut satu anggota yang kesulitan untuk berkomunikasi mampu untuk berkomunikasi dengan kami anggota kelompoknya secara terbuka dan akhirnya hambatan kami pun selesai dengan saran yang kami terapkan pada kelompok kami.</p><br>
         </section>
-        <section class="daftar-pustaka" id="daftar-pustaka">
+        <section id="daftar-pustaka">
             <h2>Daftar Pustaka</h2>
             <p><a href="https://www.cimbniaga.co.id/id/inspirasi/bisnis/mengenal-laporan-keuangan-perusahaan-dan-fungsi-pentingnya" style="text-decoration: none; color: #8B008B; overflow-wrap: break-word;" target="_blank" >https://www.cimbniaga.co.id/id/inspirasi/bisnis/mengenal-laporan-keuangan-perusahaan-dan-fungsi-pentingnya</a></p><br>
             <p><a href="https://www.idntimes.com/news/indonesia/lia-hutasoit-1/data-polusi-udara-nasional-hari-ini-jakarta-urutan-ketujuh" style="text-decoration: none; color: #8B008B; overflow-wrap: break-word;" target="_blank">https://www.idntimes.com/news/indonesia/lia-hutasoit-1/data-polusi-udara-nasional-hari-ini-jakarta-urutan-ketujuh</a></p><br>
@@ -219,12 +228,14 @@
             <p>Lampiran 4</p>
             <img src="Assets/lampiran4.png" alt=""><br><br>
         </section>
-        <section>
+        <section id="presentasi">
             <h2>PPT Presentasi</h2>
             <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">
                 <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF-pCdNfqE&#x2F;S-LF907sYnaoROR7IiadeQ&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
             </div>
         </section>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
