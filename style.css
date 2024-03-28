@@ -51,9 +51,6 @@
     padding-left: 4.4%;
     list-style: none;
     gap: 2.3vw;
-
-    width: 100%;
-    background-color: #f0acdc;
 }
 
 .navigation ul li a {
@@ -107,10 +104,10 @@
 @media screen and (max-width: 578px) {
     /* mengatur header */
     .responsif .logo {
-        font-size: 0.5em;
+        font-size: 0.8em;
     }
     .responsif .menu-icon {
-        font-size: 0.7em;
+        font-size: 1.2em;
     }
     
     /* mengatur ul */
